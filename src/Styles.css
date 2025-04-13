@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image:url(ossimg.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  
+  .app {
+    padding: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  .text-input, .text-area, .check-box {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;              
+  }
+  
+  button:hover {
+    background-color: white;
+  }
+#maps {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    justify-content: right;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }.map-container {
+    display: flex; /* Flexbox ka use karte hain */
+    justify-content: top ; /* Right side par shift karne ke liye */
+    padding: 20px; /* Thoda padding add karne ke liye */
+}
+
+.map {
+    width: 800px; /* Map ki width set karen */
+    height: 500px; 
+    
+}
