@@ -57,13 +57,13 @@ body {
     margin-top: 20px;
     color: white;
   }.map-container {
-    display: flex; /* Flexbox ka use karte hain */
-    justify-content: top ; /* Right side par shift karne ke liye */
-    padding: 20px; /* Thoda padding add karne ke liye */
+    display: flex; 
+    justify-content: right ; 
+    padding: 20px; 
 }
 
 .map {
-    width: 800px; /* Map ki width set karen */
+    width: 800px; 
     height: 500px; 
     
 }
