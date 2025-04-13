@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image:url(ossimg.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  
+  .app {
+    padding: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  .text-input, .text-area, .check-box {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;              
+  }
+  
+  button:hover {
+    background-color: white;
+  }
